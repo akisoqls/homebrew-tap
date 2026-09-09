@@ -5,8 +5,9 @@
 ## 1lm (oneline memo CLI)
 
 ```sh
+brew trust akisoqls/tap          # 初回だけ (tap の許可)
 brew install akisoqls/tap/1lm
-brew upgrade 1lm
+brew update && brew upgrade 1lm  # 更新
 ```
 
 Formula とバイナリは
