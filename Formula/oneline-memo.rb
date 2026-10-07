@@ -2,27 +2,27 @@
 class OnelineMemo < Formula
   desc "CLI for oneline memo (1lm)"
   homepage "https://1lm.akisoqls.com"
-  version "0.1.14"
+  version "0.1.15"
 
   on_macos do
     on_arm do
-      url "https://github.com/akisoqls/homebrew-tap/releases/download/v0.1.14/1lm-0.1.14-aarch64-apple-darwin.tar.gz"
-      sha256 "5801f214baf73260240e79daa86a1b3f672a69a331f6412c9c9d251728826539"
+      url "https://github.com/akisoqls/homebrew-tap/releases/download/v0.1.15/1lm-0.1.15-aarch64-apple-darwin.tar.gz"
+      sha256 "ed5918e0f66b8fdf2ad4f8b2fd2d3b4bcc98b2d140e818a044201c92146096e7"
     end
     on_intel do
-      url "https://github.com/akisoqls/homebrew-tap/releases/download/v0.1.14/1lm-0.1.14-x86_64-apple-darwin.tar.gz"
-      sha256 "db2824997b195d891dcfe45440f972433c2abbfd5833d8d90a00747c19a18140"
+      url "https://github.com/akisoqls/homebrew-tap/releases/download/v0.1.15/1lm-0.1.15-x86_64-apple-darwin.tar.gz"
+      sha256 "1691ae7e16ec2460861fc133c53e20bbb926286f37ec797c413d5d52763bcceb"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/akisoqls/homebrew-tap/releases/download/v0.1.14/1lm-0.1.14-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "422b958211be913dd1d80a017b73cbd2e43cc080bdbfce383eb8c672584c9027"
+      url "https://github.com/akisoqls/homebrew-tap/releases/download/v0.1.15/1lm-0.1.15-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "45ecd350cc466ff4dc0efab1641de738c84db6ffa7679c0ba97e3344e6cc2e1f"
     end
     on_intel do
-      url "https://github.com/akisoqls/homebrew-tap/releases/download/v0.1.14/1lm-0.1.14-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "2d6cd7eaa7934726e0f56e3b531cac9ae909fd05faa54f3b20aeed68c91c8c2c"
+      url "https://github.com/akisoqls/homebrew-tap/releases/download/v0.1.15/1lm-0.1.15-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "d3ab477d0196392d41ba1800d8938a4ecf423ef2da9ab54bafb38eeaee90ed0e"
     end
   end
 
