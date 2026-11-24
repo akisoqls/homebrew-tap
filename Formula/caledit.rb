@@ -2,27 +2,27 @@
 class Caledit < Formula
   desc "Edit calendar events as text in Neovim"
   homepage "https://github.com/akisoqls/homebrew-tap"
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/akisoqls/homebrew-tap/releases/download/caledit-v0.1.0/caledit-0.1.0-darwin-arm64.tar.gz"
-      sha256 "bd8ea3d2c82b00596e884eb6602059c437116808acd9ec84ced38f0e1a266cd4"
+      url "https://github.com/akisoqls/homebrew-tap/releases/download/caledit-v0.2.0/caledit-0.2.0-darwin-arm64.tar.gz"
+      sha256 "9b0b2c0cf3a320d113ee7514a0eeda2488f6e1cb61d81679bc4cdc93155c70f3"
     end
     on_intel do
-      url "https://github.com/akisoqls/homebrew-tap/releases/download/caledit-v0.1.0/caledit-0.1.0-darwin-amd64.tar.gz"
-      sha256 "63a8052eeadccb0bc4e6ed8ebfe94aa419630d7ad4af3343960b1086616a3db1"
+      url "https://github.com/akisoqls/homebrew-tap/releases/download/caledit-v0.2.0/caledit-0.2.0-darwin-amd64.tar.gz"
+      sha256 "bcfc02e70c0c9704714e5f30fbd832a9a395e84e62679ed696fc19dcf8442121"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/akisoqls/homebrew-tap/releases/download/caledit-v0.1.0/caledit-0.1.0-linux-arm64.tar.gz"
-      sha256 "48a549ce93e074c2cb0c2a84243f7a4057e8e24f1cc8e9564446d0817a47e684"
+      url "https://github.com/akisoqls/homebrew-tap/releases/download/caledit-v0.2.0/caledit-0.2.0-linux-arm64.tar.gz"
+      sha256 "f79cd479634a622ede46e31133f3358fa4b84cf0ef59c1a125a7e914674fc490"
     end
     on_intel do
-      url "https://github.com/akisoqls/homebrew-tap/releases/download/caledit-v0.1.0/caledit-0.1.0-linux-amd64.tar.gz"
-      sha256 "f3548e101c94ccf42899773f82c4bd98bc6880313f8149649230f2661c8a2597"
+      url "https://github.com/akisoqls/homebrew-tap/releases/download/caledit-v0.2.0/caledit-0.2.0-linux-amd64.tar.gz"
+      sha256 "8f6c1d31092eb698ffc5eb481077667584a3e3fb752c8ea72085ba48fcca92e0"
     end
   end
 
